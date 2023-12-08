@@ -16,18 +16,9 @@ arrayStr.map((item) => console.log(item.toUpperCase()));
 // - Перевести до нижнього регістру настипні стрінгові значення
 //       'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
 
-let string7 = 'HELLO WORLD';
-let string8 = 'LOREM IPSUM';
-let string9 = 'JAVASCRIPT IS COOL';
+let arrayStr3 = ['HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'];
 
-let low1 = string7.toLowerCase();
-console.log(low1);
-
-let low2 = string8.toLowerCase();
-console.log(low2);
-
-let low3 = string9.toLowerCase();
-console.log(low3);
+arrayStr.map((item) => console.log(item.toLowerCase()));
 
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
